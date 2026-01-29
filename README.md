@@ -61,7 +61,8 @@ Sur une **nouvelle branche** partant de `main` (mise à jour), faites une propos
 - Toute contribution inappropriée ne sera pas acceptée.
 - N'hésitez pas à demander de l'aide si vous rencontrez des difficultés (à moi, pour `git/github` uniquement, ou à vos camarades de classe).
 - Assurez-vous de tester votre page HTML et CSS avant de soumettre votre Pull Request, pour vérifier que tout fonctionne correctement (règles de nommages, minuscules/majuscules, liens relatifs, pas de caractères spéciaux, etc.).
-- sur github, si vous voyez un message de conflit, ne paniquez pas ! Lisez-le attentivement et suivez les instructions pour résoudre le conflit.
+- Sur github, si vous voyez **un message de conflit**, ne paniquez pas ! Lisez-le attentivement et suivez les instructions pour résoudre le conflit.
+- **N'utilisez pas les IA ou des outils de génération de code pour créer votre page HTML ou CSS. Le but est d'apprendre à coder vous-même. Idem pour git et github, travaillez en mode console**
 
 ## Et si j'attends trop longtemps pour la validation de ma PR ?
 
