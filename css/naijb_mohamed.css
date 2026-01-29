@@ -1,0 +1,74 @@
+.body-najib {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3C3D37;
+    color: white;
+}
+
+.najib-header {
+    background-color: #111010ee;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.najib-btn {
+    background-color: transparent;
+    border: white 1px solid;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.najib-btn:hover{
+    background-color: #3C3D37;
+}
+
+
+.najib-container {
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+}
+
+.najib-content {
+    /* flex: 1; */
+    text-align: justify;
+}
+
+.najib-text-content {
+    width: 50%;
+    line-height: 1.5;
+}
+
+.image-content {
+    height: 500px;
+    /* overflow: hidden; */
+    display: flex;
+    /* justify-content: center; */
+}
+
+.image-content img {
+    width: auto;
+    border-radius: 5%;
+}
+
+.najib-footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #111010ee;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    position: fixed;
+    bottom: 0;
+}
+
+.najib-icone {
+    font-size: 2rem;
+    color: #ECDFCC;
+}

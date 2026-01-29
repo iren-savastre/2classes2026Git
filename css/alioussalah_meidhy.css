@@ -1,0 +1,94 @@
+:root {
+    --bg: #f6fff8;
+    --bg-alt: #eaf4f4;
+    --text: #000000;
+    --text-soft: #d2ffe6c5;
+    --accent: #48b36c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-alt);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(180deg, rgba(72, 179, 108, 1) 0%, rgba(255, 255, 255, 1) 73%, rgba(255, 255, 255, 1) 100%);
+
+}
+
+.header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.menu {
+    font-size: 2em;
+}
+
+.header a {
+    text-decoration: none;
+    color: var(--text);
+    padding-left: 20px;
+}
+
+.header a:hover {
+    color: var(--bg);
+    text-decoration: underline;
+}
+
+.base {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 80px 120px;
+    width: 60%;
+    justify-self: center;
+}
+
+.content h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 1.7em;
+}
+
+.photo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 60px;
+    border-top: 1px solid var(--text);
+    background: linear-gradient(360deg, rgba(72, 179, 108, 1) 0%, rgba(255, 255, 255, 1) 73%, rgba(255, 255, 255, 1) 100%);
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: var(--text);
+    margin: 10px 0 0 10px;
+}
+
+.footer a:hover {
+    color: var(--bg);
+}
+
+strong {
+    font-size: 1.7em;
+}
+
+.fond {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.2em;
+}
