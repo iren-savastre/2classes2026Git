@@ -39,7 +39,5 @@ section h2{
 .container{
     display: flex;
    
-}
- div h2{
-    text-align: left;
+
 }
